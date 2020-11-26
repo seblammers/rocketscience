@@ -3,8 +3,8 @@ Package: The Rocket Science Compendium
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.1
 Authors@R: 
-    person(given = "Sebastian",
-           family = "Lammers",
+    person(given = "First",
+           family = "Last",
            role = c("aut", "cre"),
            email = "first.last@example.com")
 Description: This is to test if {holepunch} is truly magical.
@@ -13,8 +13,11 @@ Depends:
     dataRetrieval,
     dplyr,
     ggplot2,
+    holepunch,
     lubridate,
     tidyr,
     viridis
+Remotes: 
+    karthik/holepunch
 Encoding: UTF-8
 LazyData: true

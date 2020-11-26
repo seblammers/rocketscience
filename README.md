@@ -4,7 +4,7 @@ This repository is an example repo to test out the [`holepunch`](https://github.
 
 <!-- badges: start -->
   [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/seblammers/rocketscience/master?urlpath=rstudio)
-  <!-- badges: end -->
+<!-- badges: end -->
   
   
 
