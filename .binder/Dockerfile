@@ -7,6 +7,6 @@ USER ${NB_USER}
 
 
 
-RUN wget https://github.com/seblammers/rocketscience/raw/master/DESCRIPTION && R -e "options(repos = list(CRAN = 'http://mran.revolutionanalytics.com/snapshot/2020-10-16/')); devtools::install_deps()"
+RUN wget https://github.com/seblammers/rocketscience/raw/master/DESCRIPTION && R -e "options(repos = list(CRAN = 'http://mran.revolutionanalytics.com/snapshot/2020-11-26/')); devtools::install_deps()"
 
 RUN rm DESCRIPTION.1; exit 0
